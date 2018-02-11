@@ -17,3 +17,4 @@ function pokazDane() {
 
 console.log(imie);
 pokazDane();
+
