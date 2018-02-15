@@ -3,9 +3,9 @@
 var zmienna1 = "Adam"; //zmienna globalna widoczna wszędzie
 
 function zmiennaLoklna() {
-    var zmienna1 = "Zmienna loklna Adam"; //zmienna loklna widoczna tylkko w funkcji
-    var zmienna2 = "Zmienna lokalna 2 widoczna tylko w funckji"
-    //console.log(zmienna1);
+    var zmienna1 = "Zmienna lokalna Adam"; //zmienna loklna widoczna tylkko w funkcji
+    var zmienna2 = "Zmienna lokalna 2 widoczna tylko w funckji";
+    console.log(zmienna1);
 }
 
 zmiennaLoklna();

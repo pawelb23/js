@@ -16,8 +16,8 @@ for (var i = 0; i < ileRazy; i++) {
 var tablica = ["Audi", "Opel", "Honda", "Mazda", "Nissan"];
 
 for (var i = 0; i < tablica.length; i++) {
-    console.log("Tablica! Index = " + i + ", wartość = " + tablica[i]);
-}
+    console.log("Tablica! Index = " + i + ", wartość = " + tablica[i]); // taki zapis [i] powoduje, że w konsoli wyniki pojawiają się jako lista w kolejnych kolumnach (czyli np. w jednej kolumnie "Audi" w kolejnej "Opel"), bez takiego zapisu pojawiałyby się one w jednej linii - po przecinku!!! 
+}                                                           
 
 
 
