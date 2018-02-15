@@ -35,3 +35,25 @@ console.log(rezultatObliczen);
 
 var rezultatObliczen = obliczWynik( 100, 4, 1 );
 console.log(rezultatObliczen);
+
+//==============================================================
+
+var liczba1 = 7;
+var liczba2 = 5;
+
+function odejmowanie(liczba1, liczba2) {
+  var odejmowanie = liczba1 - liczba2;
+  
+  return odejmowanie;
+}
+
+
+var wynik1 = odejmowanie(2, 5);
+
+// liczba2 wew funkcji stanie się parametrem, który nazywa się liczba1 wew. finkcji - czyli masło maślane - NIE NAZYWAMY ZMIENNYCH TAK JAK PARAMETRÓW FUNKCJI!!! bo jest to bardzo błędogenna praktyka
+
+var wynik2 = odejmowanie(liczba2, liczba1);
+
+
+console.log( wynik1 );
+console.log( wynik2 );
