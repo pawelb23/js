@@ -12,7 +12,7 @@ class Ogloszenie {
     }
 }
 
-var ogloszenie1 = new Ogloszenie( "Sprzedam Opla", "Świeżynka prosto od 80letniego Niemca", "605-557-421", 16000 );
+var ogloszenie1 = new Ogloszenie ( "Sprzedam Opla", "Świeżynka prosto od 80letniego Niemca", "605-557-421", 16000 );
 
 ogloszenie1.wyswietlOgloszenie();
 

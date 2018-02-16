@@ -21,7 +21,7 @@ var wynik = (liczba1 >= liczba2) ? "liczba1 większa od liczba2" : "liczba1 mnie
 console.log(wynik);
 
 
-var wynikj = (liczba1 === liczba2) ? "prawda" : "fałsz";
+var wynik = (liczba1 === liczba2) ? "prawda" : "fałsz";
 
 console.log(wynik);
 
