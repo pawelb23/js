@@ -1,8 +1,11 @@
+'use strict';
+
 //funkcja bez paraametrów
 
 var zmienna1 = "Adam"; //zmienna globalna widoczna wszędzie
 
 function zmiennaLoklna() {
+    
     var zmienna1 = "Zmienna lokalna Adam"; //zmienna loklna widoczna tylkko w funkcji
     var zmienna2 = "Zmienna lokalna 2 widoczna tylko w funckji";
     console.log(zmienna1);
@@ -57,3 +60,4 @@ var wynik2 = odejmowanie(liczba2, liczba1);
 
 console.log( wynik1 );
 console.log( wynik2 );
+
