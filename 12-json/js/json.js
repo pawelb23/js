@@ -1,3 +1,5 @@
+'use strict';
+
 var jsonOsoby = {
     "osoby": [
         {
@@ -41,5 +43,6 @@ console.log( element.wzrost );
     
     element.zainteresowania.forEach( function( z, ind ) {
         console.log( z );
+//    console.log(element);//pokaże wszystkie elementy w konsoli
     } )
 } );

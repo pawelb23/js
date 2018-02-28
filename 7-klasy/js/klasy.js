@@ -1,6 +1,8 @@
-//pierwsze ogłoszenie
+'use strict';
 
+//pierwsze ogłoszenie
 class Ogloszenie {
+    
     constructor(tytul, opis, kontakt, cena) {
         this.tytul = tytul;
         this.opis = opis;

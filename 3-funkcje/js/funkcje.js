@@ -19,10 +19,11 @@ function obliczWarunek() {
     var wynik = 10 * 15 * 20;
     return wynik;
 }
+//poniżej dwa sposoby przekazania wyniku
+var rezultatRezultat = obliczWarunek();//pierwszy sposób 
+console.log(rezultatRezultat);//pierwszy spsób
 
-var rezultatRezultat = obliczWarunek();
-console.log(rezultatRezultat);
-
+console.log(obliczWarunek());//drugi sposób
 
 
 function obliczWynik( parametr1, parametr2, parametr3 ) {
@@ -50,6 +51,7 @@ function odejmowanie(liczba1, liczba2) {
   return odejmowanie;
 }
 
+console.log(odejmowanie(liczba1,liczba2));//wyniki ten odnosi się do funkcji i zmiennych globalnych powyrżej
 
 var wynik1 = odejmowanie(2, 5);
 

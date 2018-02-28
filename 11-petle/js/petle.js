@@ -1,4 +1,7 @@
+ 'use strict';
+
 //for (wyrażenie początkowe ; wyrażenie warunkowe ; wyrażenie modyfikujące) {
+   
 ////instrukcja do wykonania
 //}
 
@@ -16,7 +19,7 @@ for (var i = 0; i < ileRazy; i++) {
 var tablica = ["Audi", "Opel", "Honda", "Mazda", "Nissan"];
 
 for (var i = 0; i < tablica.length; i++) {
-    console.log("Tablica! Index = " + i + ", wartość = " + tablica[i]); // taki zapis [i] powoduje, że w konsoli wyniki pojawiają się jako lista w kolejnych kolumnach (czyli np. w jednej kolumnie "Audi" w kolejnej "Opel"), bez takiego zapisu pojawiałyby się one w jednej linii - po przecinku!!! 
+    console.log("Tablica! Index = " + i + ", wartość = " + tablica); // taki zapis [i] powoduje, że w konsoli wyniki pojawiają się jako indeks i jeden samochód np. indeks 0 audi, indeks 1 opel, itd --- w innym przypadku wyniki pojawiałyby się jako lista indeksów i w każdej byłyby wszystkie samochody czyli indeksy od 0 do 4 i każdy miałby tablicę audi, opel, honda, mazda, nissan. 
 }                                                           
 
 
@@ -50,13 +53,21 @@ for (var i = 0; i < tablica.length; i++) {
 }
 
 //Pętla WHILE
-var iter = 0;
-while( iter < 20 ) {
-    console.log( iter );
-    ++iter;    
+var itern = 0;
+while( itern < 25 ) {
+    console.log( itern );
+    ++itern;  
+
+    //    {break};//break w tym miejscu spowoduje, że instrukcje z wnętrza pętli wykonają się tylko raz czyli w konsoli pokaże się indeks równy 0
+   
+    //if(itern++>=10){break};//break w tym miejscu spowoduje przerwanie sprawdzania funkcji po 10 razie
+   
+    //if(itern % 2 !=0){continue};//continue na razie w tym miejscu nie jest dla mnie zrozumiałe
 }
 
-var iter = 20;
+
+var iter = 20;//funkcja do...while - w konsoli pojawi się wynik 20, spowodowane jest to tym iż ta funkcja sprawdza kod który ma być powtarzany (czyli nasze iter = 20) przed sprawdzeniem wyrażenia (czyli tutaj iter < 10). Wynika z tego, że zawsze ta funkcja przynajmniej raz wykona instrukcję z wnętrza pętli
+
 do {
     console.log(iter);
     ++iter;

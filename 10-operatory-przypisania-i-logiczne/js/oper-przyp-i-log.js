@@ -1,3 +1,5 @@
+   'use strict';
+
 //operatory przypisania
 
 var liczba1 = 14;
@@ -7,11 +9,11 @@ var liczba2 = 6;
 
 console.log(liczba1 * liczba2);
 
-liczba1 -= 10; //od pierwszej liczby odejmujemy 10 czyli (14 - 10)
+liczba2 -= 10; //od pierwszej liczby odejmujemy 10 czyli (14 - 10)
+
+console.log(liczba2);
 
 liczba1 %= 6; // liczba1 = liczba1 % 6;
-
-
 
 console.log(liczba1);
 
@@ -33,10 +35,13 @@ var liczba1 = 13;
 var liczba2 = 6;
 var pietro = 14;
 
-if (liczba1 > liczba2 && pietro == 14) {
+if (liczba1 < liczba2 && pietro == 14) {
+ 
     console.log("Spełnione zostały dwa warunki, także TRUE");
 }
-
+else {
+    console.log("Warunek nie spełniony");
+}
 
 if (liczba1 > liczba2 || pietro == 14) {
     console.log("Spełnione zostały dwa warunki, także TRUE");
@@ -53,7 +58,9 @@ if (liczba1 > liczba2 || pietro == 14) {
 if (!(liczba1 < liczba2) || pietro == 14) {
     console.log("Spełnione zostały dwa warunki, także TRUE");
 } // wykrzyknik przed liczba1 jeden zmienia "CAŁE WYRAŻENIE"
-
+else {
+    console.log("Warunek nie spełniony bo jest ! czyli Negacja");
+}
 
 var liczba1 = 12;
 var liczba2 = 10;
@@ -68,7 +75,7 @@ if (liczba1 == liczba2) {
 } else if (liczba1 == "smog") {
     console.log("liczba1 równa się smog");
 } else {
-    console.log("kod który wykona się żaden z warunków nie zostanie spełniony")
+    console.log("kod który wykona się żaden z warunków nie zostanie spełniony");
 }
 
 //SWITCH!!!
@@ -91,3 +98,15 @@ switch (grupa) {
     default: // jeżeli nie będzie się równało żadnemu case
         console.log("Nie wiadomo ile osób w grupie");
 }
+
+//Operator Warunkowy - TERNARY
+
+var liczba = 100;
+var wynik = (liczba > 0)? - 2: 1;
+
+console.log(wynik);
+
+var liczba = 100;
+var wynik = (liczba < 0)? - 2: 1;
+
+console.log(wynik);

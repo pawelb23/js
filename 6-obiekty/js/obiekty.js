@@ -1,3 +1,5 @@
+ 'use strict';
+
 // tak tworzymy obiekty kiedy jest jeden obiekt
 var osoba = {
     imie: "Adam",

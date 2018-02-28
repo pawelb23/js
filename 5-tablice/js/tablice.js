@@ -1,3 +1,4 @@
+'use strict';
 //tablice
 
 var imiona = ["Paweł", "Krzysztof", "Kasia", "Nikola", "Kamil"];
@@ -18,11 +19,11 @@ console.log(imiona);
 //usuwanie elementu ostatniego
 imiona.pop();
 console.log(imiona);
-
+//console.log(imiona.pop());//taki zapis usuwa ostatnią wartość z tablicy i od razu wyświetla tą usuniętą wartość w konsoli
 //usunięty element
 var usunietyElement = imiona.pop();
 
-console.log(usunietyElement);
+console.log(usunietyElement);//zachowanie jak w przypadku console.log(imiona.pop());
 
 // wstawianie elementu na początku tablicy
 imiona.unshift("Kasia", "Michał");
@@ -37,19 +38,19 @@ console.log(imiona);
 //sprawdzanie ilości elementów w tablicy
 console.log(imiona.length);
 
-//rozbijanie tablicy na ciąg tekstowy
-var tablicaJakoTekst = imiona.join();
-console.log(tablicaJakoTekst);
-
-
-var tablicaJakoTekst = imiona.join("---");// można wstawić w nawiasie co się chce - np. (", ")
-console.log(tablicaJakoTekst);
-
-//odwracanie tablicy
-var imionaReverse = imiona.reverse();
-console.log(imionaReverse);
-
-//sortowanie tablicy
-var posortowana = imiona.sort(); //metodą ze zmienną
-console.log(posortowana);
-
+////rozbijanie tablicy na ciąg tekstowy
+//var tablicaJakoTekst = imiona.join();
+//console.log(tablicaJakoTekst);
+//
+//
+//var tablicaJakoTekst = imiona.join("---");// można wstawić w nawiasie co się chce - np. (", ")
+//console.log(tablicaJakoTekst);
+//
+////odwracanie tablicy
+//var imionaReverse = imiona.reverse();
+//console.log(imionaReverse);
+//
+////sortowanie tablicy
+//var posortowana = imiona.sort(); //metodą ze zmienną
+//console.log(posortowana);
+//

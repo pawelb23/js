@@ -1,3 +1,5 @@
+'use strict';
+
 var liczba = 15.5;
 var text = "Tadzio Wiertełko";
 var prawda = true;
@@ -8,7 +10,7 @@ console.log( typeof prawda );
 
 // typ boolean
 var czyJestSmog = true;
-if( czyJestSmog) {
+if( czyJestSmog) {    
     console.log("Jest smog");
 } else {
     console.log("Nie ma smogu");
