@@ -45,19 +45,19 @@ console.log(rezultatObliczen);
 var liczba1 = 7;
 var liczba2 = 5;
 
-function odejmowanie(liczba1, liczba2) {
+function odejmowanieGlowne(liczba1, liczba2) {
   var odejmowanie = liczba1 - liczba2;
   
   return odejmowanie;
 }
 
-console.log(odejmowanie(liczba1,liczba2));//wyniki ten odnosi się do funkcji i zmiennych globalnych powyrżej
+console.log(odejmowanieGlowne(liczba1,liczba2));//wyniki ten odnosi się do funkcji i zmiennych globalnych powyrżej
 
-var wynik1 = odejmowanie(2, 5);
+var wynik1 = odejmowanieGlowne(2, 5);
 
-// liczba2 wew funkcji stanie się parametrem, który nazywa się liczba1 wew. finkcji - czyli masło maślane - NIE NAZYWAMY ZMIENNYCH TAK JAK PARAMETRÓW FUNKCJI!!! bo jest to bardzo błędogenna praktyka
+// liczba2 wew funkcji stanie się parametrem, który nazywa się liczba1 wew. funkcji - czyli masło maślane - NIE NAZYWAMY ZMIENNYCH TAK JAK PARAMETRÓW FUNKCJI!!! bo jest to bardzo błędogenna praktyka
 
-var wynik2 = odejmowanie(liczba2, liczba1);
+var wynik2 = odejmowanieGlowne(liczba2, liczba1);
 
 
 console.log( wynik1 );
