@@ -5,7 +5,7 @@
 var zmienna1 = "Adam"; //zmienna globalna widoczna wszędzie
 
 function zmiennaLoklna() {
-    
+
     var zmienna1 = "Zmienna lokalna Adam"; //zmienna loklna widoczna tylkko w funkcji
     var zmienna2 = "Zmienna lokalna 2 widoczna tylko w funckji";
     console.log(zmienna1);
@@ -20,24 +20,24 @@ function obliczWarunek() {
     return wynik;
 }
 //poniżej dwa sposoby przekazania wyniku
-var rezultatRezultat = obliczWarunek();//pierwszy sposób 
-console.log(rezultatRezultat);//pierwszy spsób
+var rezultatRezultat = obliczWarunek(); //pierwszy sposób 
+console.log(rezultatRezultat); //pierwszy spsób
 
-console.log(obliczWarunek());//drugi sposób
+console.log(obliczWarunek()); //drugi sposób
 
 
-function obliczWynik( parametr1, parametr2, parametr3 ) {
+function obliczWynik(parametr1, parametr2, parametr3) {
     var wynik = parametr1 * parametr2 * parametr3;
     return wynik;
 }
 
-var rezultatObliczen = obliczWynik( 20, 10, 3 );
+var rezultatObliczen = obliczWynik(20, 10, 3);
 console.log(rezultatObliczen);
 
-var rezultatObliczen = obliczWynik( 1, 4, 3 );
+var rezultatObliczen = obliczWynik(1, 4, 3);
 console.log(rezultatObliczen);
 
-var rezultatObliczen = obliczWynik( 100, 4, 1 );
+var rezultatObliczen = obliczWynik(100, 4, 1);
 console.log(rezultatObliczen);
 
 //==============================================================
@@ -46,12 +46,12 @@ var liczba1 = 7;
 var liczba2 = 5;
 
 function odejmowanieGlowne(liczba1, liczba2) {
-  var odejmowanie = liczba1 - liczba2;
-  
-  return odejmowanie;
+    var odejmowanie = liczba1 - liczba2;
+
+    return odejmowanie;
 }
 
-console.log(odejmowanieGlowne(liczba1,liczba2));//wyniki ten odnosi się do funkcji i zmiennych globalnych powyrżej
+console.log(odejmowanieGlowne(liczba1, liczba2)); //wyniki ten odnosi się do funkcji i zmiennych globalnych powyrżej
 
 var wynik1 = odejmowanieGlowne(2, 5);
 
@@ -60,6 +60,5 @@ var wynik1 = odejmowanieGlowne(2, 5);
 var wynik2 = odejmowanieGlowne(liczba2, liczba1);
 
 
-console.log( wynik1 );
-console.log( wynik2 );
-
+console.log(wynik1);
+console.log(wynik2);
