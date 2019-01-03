@@ -1,4 +1,5 @@
 'use strict';
+
 //tablice
 
 var imiona = ["Paweł", "Krzysztof", "Kasia", "Nikola", "Kamil"];
