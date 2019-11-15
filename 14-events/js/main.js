@@ -6,7 +6,7 @@
 window.addEventListener('scroll', function() {
    
     console.log('123');
-    var y = window.pageYOffset; //odl
+    var y = window.pageYOffset; //odległość
     var headerHeight = document.getElementById('main-header').offsetHeight;
     
     console.log(y);

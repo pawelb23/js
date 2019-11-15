@@ -4,14 +4,14 @@
 
 var zmienna1 = "Adam"; //zmienna globalna widoczna wszędzie
 
-function zmiennaLoklna() {
+function zmiennaLokalna() {
 
     var zmienna1 = "Zmienna lokalna Adam"; //zmienna loklna widoczna tylkko w funkcji
     var zmienna2 = "Zmienna lokalna 2 widoczna tylko w funckji";
     console.log(zmienna1);
 }
 
-zmiennaLoklna();
+zmiennaLokalna();
 console.log(zmienna1);
 
 
