@@ -24,7 +24,7 @@
 
 
 
- tablica.forEach(function (elementTablicy, indexTablicy) {
+ tablica.forEach(function(elementTablicy, indexTablicy) {
      var iteracja = indexTablicy + 1;
      console.log("Samochód numer: " + iteracja + ", wartość: " + elementTablicy);
  });
@@ -32,14 +32,14 @@
 
 
 
- tablica.forEach(function (elementTablicy, indexTablicy) {
+ tablica.forEach(function(elementTablicy, indexTablicy) {
      var iteracja = indexTablicy + 1;
      if (elementTablicy == "Mazda")
          console.log("Samochód numer: " + iteracja + ", wartość: " + elementTablicy);
  });
 
 
- tablica.forEach(function (et, it) {
+ tablica.forEach(function(et, it) {
      if (et == "Mazda") {
          console.log("Index: " + it + ", wartość: " + et);
      }
@@ -72,3 +72,21 @@
      console.log(iter);
      ++iter;
  } while (iter < 10);
+
+ console.log('-----for-----');
+
+ var arrayTotalNew = ['a', 'b', 'c', 'd'];
+
+ for (var iInFor = 0; iInFor < arrayTotalNew.length; iInFor++)
+
+     console.log(iInFor + ' <---> ' + arrayTotalNew[iInFor]);
+
+ console.log('-----forEach-----');
+
+ arrayTotalNew.forEach(function(elemSzuk, indexSzuk) {
+
+     console.log(indexSzuk + ' <---> ' + elemSzuk);
+
+ });
+
+ console.log('--------------');

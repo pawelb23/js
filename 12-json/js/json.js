@@ -36,6 +36,8 @@ console.log(jsonOsoby);
 
 
 jsonOsoby.osoby.forEach(function (element, index) {
+
+//    console.log(element.imie, index); //Pokaże też imiona oraz ich indeksy
     console.log(element.imie);
     console.log(element.nazwisko);
     console.log(element.wzrost);
@@ -48,4 +50,4 @@ jsonOsoby.osoby.forEach(function (element, index) {
     })
 });
 
-//console.log(jsonOsoby.osoby[1].zainteresowania[1].nazwa);  //Mój sposób na dotarcie do konkretnej wartości tutaj.
+console.log(jsonOsoby.osoby[1].zainteresowania[1].nazwa);  //Mój sposób na dotarcie do konkretnej wartości tutaj.

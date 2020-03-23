@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //tablice
 
@@ -14,7 +14,7 @@ imiona[6] = "Marcin";
 console.log(imiona);
 
 //push dodaje element na końcu tablicy i z automatu przypisze kolejny indeks
-imiona.push("Mikołaj", "Adam" );
+imiona.push("Mikołaj", "Adam");
 console.log(imiona);
 
 //usuwanie elementu ostatniego
@@ -24,7 +24,7 @@ console.log(imiona);
 //usunięty element
 var usunietyElement = imiona.pop();
 
-console.log(usunietyElement);//zachowanie jak w przypadku console.log(imiona.pop());
+console.log(usunietyElement); //zachowanie jak w przypadku console.log(imiona.pop());
 
 // wstawianie elementu na początku tablicy
 imiona.unshift("Kasia", "Michał");
