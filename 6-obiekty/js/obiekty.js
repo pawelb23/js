@@ -6,11 +6,11 @@ var osoba = {
   nazwisko: "Nowacki",
   wzrost: 182,
 
-  wyswietlSzczegoly: function() {
+  wyswietlSzczegoly: function () {
     console.log(
       "Osoba to: " + this.imie + " " + this.nazwisko + " " + this.wzrost + " cm"
     );
-  }
+  },
 };
 
 console.log(osoba.imie);
@@ -23,14 +23,14 @@ var osoba = {
   nazwisko: "Nowacki",
   wzrost: 182,
 
-  wyswietlSzczegoly: function(paramImie, paramWzrost) {
+  wyswietlSzczegoly: function (paramImie, paramWzrost) {
     this.imie = paramImie;
     this.wzrost = paramWzrost;
 
     console.log(
       "Osoba to: " + this.imie + " " + this.nazwisko + " " + this.wzrost + " cm"
     );
-  }
+  },
 };
 
 console.log(osoba.imie);
@@ -41,7 +41,7 @@ osoba.wyswietlSzczegoly("Ela", 165);
 osoba.wiek = 36;
 console.log(osoba.wiek);
 
-osoba.wyswietlWiek = function() {
+osoba.wyswietlWiek = function () {
   console.log(this.wiek);
 };
 
