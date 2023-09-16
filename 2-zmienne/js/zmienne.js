@@ -1,4 +1,4 @@
-  'use strict';
+"use strict";
 
 var imie = "Adam";
 var nazwisko = "Nowacki";
@@ -13,11 +13,10 @@ var wzrost;
 //console.log(wzrost);
 
 function pokazDane() {
-  
-    var imie = "Maciej";
-       console.log(imie);
+  var imie = "Maciej";
+  console.log(imie);
 }
 
 console.log(imie);
-pokazDane();
 
+pokazDane();
